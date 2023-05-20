@@ -1,0 +1,40 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Category')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-category" data-rule="required" class="form-control" name="row[category]" type="text" value="{$row.category|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sku')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sku" data-rule="required" class="form-control" name="row[sku]" type="text" value="{$row.sku|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Huodongjia')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-huodongjia" class="form-control" name="row[huodongjia]" type="text" value="{$row.huodongjia|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lineup')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lineup" class="form-control" name="row[lineup]" type="text" value="{$row.lineup|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bili')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-bili" class="form-control" name="row[bili]" type="text" value="{$row.bili|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

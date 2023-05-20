@@ -1,0 +1,70 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-date" data-rule="required" class="form-control" name="row[date]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Store')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-store" data-rule="required" class="form-control" name="row[store]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sku')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sku" data-rule="required" class="form-control" name="row[sku]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lianjie')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lianjie" class="form-control" name="row[lianjie]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Size')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-size" data-rule="required" class="form-control" name="row[size]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Category')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-category" data-rule="required" class="form-control" name="row[category]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Des')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-des" data-rule="required" class="form-control" name="row[des]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Yuanjia')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-yuanjia" class="form-control" name="row[yuanjia]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Xianjia')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-xianjia" class="form-control" name="row[xianjia]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Shuliang')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-shuliang" data-rule="required" class="form-control" name="row[shuliang]" type="text">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
